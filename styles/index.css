@@ -1,3 +1,5 @@
+/* HEADER */
+
 #header {
     width: 100vw;
     height: 100vh;
@@ -36,4 +38,60 @@
     z-index: -1;
 
     filter: blur(2px) brightness(60%);
+}
+
+
+/* CONTENT */
+
+.section p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    color: var(--text-gray);
+}
+
+#what {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 100px 25vw;
+}
+
+#what h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: var(--light-blue);
+}
+
+#what .section-content {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#what img {
+    height: 30vh;
+}
+
+#what p {
+    text-align: right;
+}
+
+#events {
+    background-color: var(--dark-blue);
+}
+
+#join {
+
+}
+
+
+/* FOOTER */
+
+#connect {
+    height: 37.5vh;
+    background-color: var(--gray);
 }
