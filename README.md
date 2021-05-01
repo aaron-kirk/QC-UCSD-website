@@ -1,4 +1,4 @@
-# QC-UCSD-website
+# QCSD-website
 
 Someone should add some stuff here...
 
